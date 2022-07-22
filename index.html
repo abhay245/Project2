@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movies</title>
+   
+</head>
+<body>
+    <header class="bg-white uppercase flex justify-between shadow-2xl border-r-8 border-gray-500 ">
+        <svg width="33" height="33" viewBox="0 0 33 33" fill="none" class=" h-6 w-6 absolute mt-10 mb-10 ml-3" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.130371" y="0.445038" width="32.4175" height="32.4175" rx="2.567" fill="black"/>
+            <path d="M11.2988 10.5328H15.5619L12.0956 16.5243L13.1026 18.4578L17.7216 10.5328H21.3739L24.8718 16.6048L21.3337 22.7748H17.0637L20.5952 16.6652L19.5277 14.866L14.8951 22.7748H11.3032L7.80641 16.5237L11.2988 10.5328Z" fill="white"/>
+            </svg>
+            
+        <div class="font-extrabold text-black ml-10 mt-10 mb-10 relative">Movies</div>
+        <input type="text" name="search" id="search" placeholder=" Quick Search" class="h-8 w-48 mt-10 mb-10 mr-10 relative"/>
+    </header>
+    <div class="w-60 h-auto shadow-md bg-white px-1 absolute border-l-4 border-t-4">
+        <ul class="relative">
+          <li class="relative">
+            <a class="flex items-center text-lg font-semibold py-10 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">Search Result</a>
+          </li>
+          <li class="relative">
+            <a class="flex items-center text-lg py-10 font-semibold px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">All Team</a>
+          </li>
+          <li class="relative">
+            <a class="flex items-center text-lg py-10 px-6 font-semibold h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">Core</a>
+          </li>
+          <li class="relative">
+            <a class="flex items-center text-lg py-10 px-6 h-12 font-semibold overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">Developers</a>
+          </li>
+          <li class="relative">
+            <a class="flex items-center text-lg py-10 px-6 h-12  font-semibold overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">Designers</a>
+          </li>
+          <li class="relative">
+            <a class="flex items-center text-lg py-10 px-6 h-12 font-semibold overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">Mentors</a>
+          </li>
+          <li class="relative mt-28 mb-0">
+            <a class="flex items-center text-center rounded-2xl shadow-2xl text-lg py-8 px-8 h-8 font-semibold overflow-hidden bg-black text-white text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark" >+Add </a>
+          </li>
+        </ul>
+      </div>
+    <div class="flex-1 flex-nowrap flex-row-reverse">
+        <div class="grid grid-cols-4 grid-rows-2 gap-x-1 gap-y-1">
+          
+          <div class=" card bg-white border-gray-200 shadow-md overflow-hidden mt-10 w-48 col-start-2 "> 
+            <img src="download.jpg" alt="Justice League" class= "h-auto w-48 object-cover">
+            <div class="m-4">
+              <div class="text-teal-600 rounded-md text-lg bg-slate-100 font-medium mt-4">Fantasy</div>
+              <div class="title text-black text-xl font-bold mt-5 ">Justice League</div>
+            </div>
+          </div>
+
+          <div class=" card bg-white border-gray-200 shadow-md overflow-hidden mt-10 w-48 col-start-3"> 
+            <img src="download (1).jpg" alt="The Courier" class="h-auto w-48  object-cover">
+            <div class="m-4">
+              <div class="text-teal-600 rounded-md text-lg bg-slate-100 font-medium mt-4">Drama</div>
+              <div class="title text-black text-xl font-bold mt-5">The Courier</div>
+            </div>
+          </div>
+
+          <div class="card rounded bg-white border-gray-200 shadow-md overflow-hidden mt-10 w-48 col-start-4"> 
+            <img src="download (2).jpg" alt="Wonder Woman" class="h-auto w-48 object-cover">
+            <div class="m-4">
+              <div class="text-teal-600 rounded-md text-lg bg-slate-100 font-medium mt-4">Fantasy</div>
+              <div class="title text-black text-xl font-bold mt-5">Wonder Woman</div>
+            </div>
+          </div>
+
+          <div class="card rounded bg-white border-gray-200 shadow-md overflow-hidden mt-10 w-48 col-start-2">
+            <img src="download (2).jpg" alt="Wonder Woman" class="h-auto w-48 object-cover">
+            <div class="m-4">
+              <div class="text-teal-600 rounded-md text-lg bg-slate-100 font-medium mt-4">Fantasy</div>
+              <div class="title text-black text-xl font-bold mt-5">Wonder Woman</div>
+            </div>
+          </div>
+         
+            <div class="card bg-white border-gray-200 shadow-md overflow-hidden mt-10 w-48 col-start-3"> 
+              <img src="download.jpg" alt="Justice League" class= "h-auto w-48 object-cover">
+              <div class="m-4">
+                <div class="text-teal-600 rounded-md text-lg bg-slate-100 font-medium mt-4">Fantasy</div>
+                <div class="title text-black text-xl font-bold mt-5 ">Justice League</div>
+              </div>
+            </div>
+
+          <div class="card bg-white border-gray-200 shadow-md overflow-hidden mt-10 w-48 col-start-4"> 
+            <img src="download (1).jpg" alt="The Courier" class="h-auto w-48  object-cover">
+            <div class="m-4">
+              <div class="text-teal-600 rounded-md text-lg bg-slate-100 font-medium mt-4">Drama</div>
+              <div class="title text-black text-xl font-bold mt-5">The Courier</div>
+            </div>
+          </div>
+          </div>
+        </div>
+    </div>
+    <script>
+      function search_movie() {
+  let input = document.getElementById('search').value
+  input=input.toLowerCase();
+  let x = document.getElementsByClassName('title');
+  let y = documnet.getElementsByClassName('card');
+    
+  for (i = 0; i < x.length; i++) { 
+      if (!x[i].innerHTML.toLowerCase().includes(input)) {
+          y[i].style.display="none";
+      }
+      else {
+          y[i].style.display="block";                 
+      }
+  }
+}
+    </script>
+    
